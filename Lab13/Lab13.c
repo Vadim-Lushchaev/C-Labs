@@ -173,7 +173,7 @@ void SetFrameValue(ID3v2Tag** tag, char* name, char* value)
 
 int main(int argc, char* argv[])
 {
-    FILE* in = fopen("CYGO_-_Panda_E.mp3", "rb");
+    FILE* in = fopen("Lara Fabian - live .mp3", "rb");
     ID3v2Tag* header = CreateTag();
     ReadTag(header, in);
     SetFrameValue(&header, "TTTT", "1231233");
